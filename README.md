@@ -13,15 +13,13 @@ Welcome to the RFID_Reader_InfoHub repository! This repository is dedicated to p
 
 ## Introduction
 
-This repository aims to be a go-to reference for anyone working with RFID readers. Whether you are a beginner looking to understand the basics or an experienced developer seeking advanced tips, you'll find useful information here.
+This repository aims to be a go-to reference for anyone working with FDX RFID readers. Whether you are a beginner looking to understand the basics or an experienced developer seeking advanced tips, you'll find useful information here.
 
 ## Code Snippets
 
 In this section, you will find various code snippets in different programming languages that demonstrate how to interact with RFID readers. Each snippet includes comments and explanations to help you understand how it works.
 
-- [Python](code-snippets/python.md)
 - [C#](code-snippets/cpp.md)
-- [JavaScript](code-snippets/javascript.md)
 
 ## Explanations
 
