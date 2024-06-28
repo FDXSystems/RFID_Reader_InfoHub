@@ -20,4 +20,3 @@ In this folder you'll find information about:
 - [Product Description](product_description.md#product-description)
 - [Applicability](applicability.md#applicability)
 - [API](api.md#api)
-  
