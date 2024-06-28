@@ -16,13 +16,13 @@ The client can interact with the system through commands. These “commands” a
 The general structure of these commands are:
 ```json
 {
-  object: "..." ,
-  arg:{
-    target: "..." ,
-    action: "..." 
+  "object": "..." ,
+  "arg":{
+    "target": "..." ,
+    "action": "..." 
   },
-  data: "..." ,
-  status: "..."
+  "data": "..." ,
+  "status": "..."
 }
 ```
 ### Field Descriptions
