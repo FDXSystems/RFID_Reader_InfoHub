@@ -17,6 +17,6 @@ provide more detailed data on its workabouts
 ## Table of Contents
 In this folder you'll find information about:
 
-- [General Design](#product_description.md)
+- [General Design](#product_description.md#product-description)
 - [Applicability](#applicability.md)
 - [API](#api.md)
