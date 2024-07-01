@@ -7,7 +7,7 @@ Welcome to the RFID_Reader_InfoHub repository! This repository is dedicated to p
 - [Introduction](#introduction)
 - [Code Snippets](#code-snippets)
 - [Explanations](#explanations)
-- [Tutorials](#tutorials)
+- [Guides](#guides)
 - [Wiki](#wiki)
 - [Contact](#contact)
 
