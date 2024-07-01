@@ -17,28 +17,28 @@ using System.Text.Json.Serialization;
 // ======================================================================================================== //
 public class GeneralCommandStructure {
 
-        [JsonPropertyName("object")]
-        public string Object { get; set; }
+    [JsonPropertyName("object")]
+    public string Object { get; set; }
         
-        [JsonPropertyName("arg")]
-        public object Arg { get; set; }
+    [JsonPropertyName("arg")]
+    public object Arg { get; set; }
         
-        [JsonPropertyName("data")]
-        public object Data { get; set; }
+    [JsonPropertyName("data")]
+    public object Data { get; set; }
 
-        [JsonPropertyName("status")]
-        public string Status { get; set; }
+    [JsonPropertyName("status")]
+    public string Status { get; set; }
         
-        public GeneralCommandStructure(string obj, string target, string action , object data){
+    public GeneralCommandStructure(string obj, string target, string action , object data){
 
-			var arg = new Dictionary<string, object>() { { "target" , target }, { "action" , action } };
-            
-            this.Object = obj;
-            this.Arg = arg;
-            this.Data = data;
-            this.Status = null;
+		var arg = new Dictionary<string, object>() { { "target" , target }, { "action" , action } };
+        
+        this.Object = obj;
+        this.Arg = arg;
+        this.Data = data;
+        this.Status = null;
 
-        }
+    }
 	
 }
 

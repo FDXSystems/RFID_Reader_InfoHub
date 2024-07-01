@@ -18,7 +18,7 @@ The hardware is composed by:
 - 4 TNC Connectors (RFID Connectors)
 
 <div style="text-align: center;">
-  <img src="assets/RFID_Housing_2.png" alt="RFID Reader Housing" style="display: block; margin-left: auto; margin-right: auto;">
+  <img src="assets/RFID_Reader_Housing.png" alt="RFID Reader Housing" style="display: block; margin-left: auto; margin-right: auto;">
   <em>RFID Reader Housing</em>
 </div>
 

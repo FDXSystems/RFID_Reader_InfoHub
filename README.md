@@ -29,13 +29,13 @@ Here, we provide detailed explanations of key concepts and components involved w
 - Potential use cases, future features, etc 
 - Advantages/Disadvantages of our approach
 
-## Tutorials
+## Guides
 
 Step-by-step tutorials to guide you through setting up and using our readers:
 
-- [Setting Up the RFID Reader](tutorials/setup.md)
-- [Using The Reader as a Gateway endpoint](tutorials/gateway_endpoint.md)
-- [Understanding our API](tutorials/API.md)
+- [Setting Up the RFID Reader](guides/reader_setup_guide.md)
+- [Using The Reader as a Gateway endpoint](guides/network_config_guide.md)
+- [Understanding our API](guides/api_documentation_guide.md)
 
 ## Wiki
 

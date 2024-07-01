@@ -59,3 +59,62 @@ The general structure of these commands are:
     
     - `"ERR: " + Descriptive message`
     - `"OK"`
+
+
+### Example 
+
+Client sends the following request through the Web Socket connection:
+```json
+{
+  "object": "sensors" ,
+  "arg":{
+    "target": "pc_states" ,
+    "action": "get" 
+  },
+  "data": {
+    "tag_type": "axzon_opus_logger",
+    "epc_id": "12345678"
+  } ,
+  "status": ""
+}
+```
+
+If the Reader could fetch successfully the 'target' :
+```json
+{
+  "object": "sensors" ,
+  "arg":{
+    "target": "pc_states" ,
+    "action": "get" 
+  },
+  "data": {
+    "tag_type": "axzon_opus_logger",
+    "epc_id": "12345678",
+    "pc_states":{
+      "logger_state": 1,
+      "bat_installed": true,
+      "rtc_powered_by_bat": true,
+      "ts_alarm_raised": false,
+      "bat_alarm_raised": false,
+      "tamper_alarm_raised": false
+    }
+  } ,
+  "status": "OK"
+}
+```
+
+If the request fails for whatever reason :
+```json
+{
+  "object": "sensors" ,
+  "arg":{
+    "target": "pc_states" ,
+    "action": "get" 
+  },
+  "data": {
+    "tag_type": "axzon_opus_logger",
+    "epc_id": "12345678"
+  } ,
+  "status": "ERR: MCD_ERR_NO_TAG"
+}
+```
