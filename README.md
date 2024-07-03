@@ -39,7 +39,7 @@ Step-by-step tutorials to guide you through setting up and using our readers:
 
 ## Wiki
 
-Our [Wiki](https://github.com/your-username/RFID_Reader_infoHub/wiki) is a comprehensive knowledge base that includes articles, diagrams, and troubleshooting tips.
+Our [Wiki](https://github.com/FDXSystems/RFID_Reader_infoHub/wiki) is a comprehensive knowledge base that includes articles, diagrams, and troubleshooting tips.
 
 
 ## Contact
